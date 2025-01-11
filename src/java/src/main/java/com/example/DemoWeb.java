@@ -18,7 +18,7 @@ public class DemoWeb {
 
 
 
-    @GetMapping("/")
+    @GetMapping("/test")
     public String hello() {
         logger.warn("hello");
         return "hello @ " + new Date().toString() + "\n";
